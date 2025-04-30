@@ -10,17 +10,20 @@
     ".": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     },
     "./hacker": {
       "import": "./dist/pranks/hacker/index.mjs",
       "require": "./dist/pranks/hacker/index.cjs",
-      "types": "./dist/pranks/hacker/index.d.ts"
+      "types": "./dist/pranks/hacker/index.d.ts",
+      "default": "./dist/pranks/hacker/index.js"
     },
     "./rotation": {
       "import": "./dist/pranks/rotation/index.mjs",
       "require": "./dist/pranks/rotation/index.cjs",
-      "types": "./dist/pranks/rotation/index.d.ts"
+      "types": "./dist/pranks/rotation/index.d.ts",
+      "default": "./dist/pranks/rotation/index.js"
     }
   },
   "files": [

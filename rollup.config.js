@@ -15,6 +15,12 @@ export default [
         format: 'cjs',
         sourcemap: true,
       },
+      {
+        file: 'dist/index.js',
+        format: 'umd',
+        name: 'Pranks',
+        sourcemap: true,
+      },
     ],
     plugins: [
       del({ targets: 'dist/*' }),
@@ -38,6 +44,12 @@ export default [
         format: 'cjs',
         sourcemap: true,
       },
+      {
+        file: 'dist/pranks/hacker/index.js',
+        format: 'umd',
+        name: 'PranksHacker',
+        sourcemap: true,
+      },
     ],
     plugins: [
       typescript({
@@ -58,6 +70,12 @@ export default [
       {
         file: 'dist/pranks/rotation/index.cjs',
         format: 'cjs',
+        sourcemap: true,
+      },
+      {
+        file: 'dist/pranks/rotation/index.js',
+        format: 'umd',
+        name: 'PranksRotation',
         sourcemap: true,
       },
     ],
