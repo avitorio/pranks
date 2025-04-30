@@ -24,6 +24,17 @@ import 'pranks/hacker';
 require('pranks/hacker');
 ```
 
+#### CDN Import
+You can also include the effects directly via CDN:
+
+```html
+<!-- Hacker Effect -->
+<script src="https://cdn.jsdelivr.net/npm/pranks/dist/pranks/hacker/index.js"></script>
+
+<!-- Rotation Effect -->
+<script src="https://cdn.jsdelivr.net/npm/pranks/dist/pranks/rotation/index.js"></script>
+```
+
 ### Rotation Effect
 
 The rotation effect allows you to add spinning animations to your webpage.
