@@ -10,21 +10,20 @@ npm install pranks
 
 ## Usage
 
-### Hacker Effect
-
-The hacker effect creates a "Matrix-style" animation with falling Japanese characters and a "YOU'VE BEEN HACKED" message.
-
 #### ESM Import
+
 ```javascript
-import 'pranks/hacker';
+import "pranks/hacker";
 ```
 
 #### CommonJS Import
+
 ```javascript
-require('pranks/hacker');
+require("pranks/hacker");
 ```
 
 #### CDN Import
+
 You can also include the effects directly via CDN:
 
 ```html
@@ -40,37 +39,29 @@ You can also include the effects directly via CDN:
 The rotation effect allows you to add spinning animations to your webpage.
 
 #### ESM Import
+
 ```javascript
-import 'pranks/rotation';
+import "pranks/rotation";
 ```
 
 #### CommonJS Import
+
 ```javascript
-require('pranks/rotation');
+require("pranks/rotation");
 ```
 
-## Hacker Effect Features
-- Full-screen Matrix-style animation
-- Text transformation effect with Japanese characters
-- Responsive canvas that adjusts to window size
-- Automatic execution when DOM is loaded
-- Non-blocking animation using requestAnimationFrame
-- Works with both module and script tag implementations
+## Pranks
 
-When activated, the hacker effect will:
-1. Transform all text on the page into randomly changing Japanese characters
-2. Create a Matrix-style rain effect with falling Japanese characters
-3. Display a centered "YOU'VE BEEN HACKED" message
-4. Change the page background to black with green text
-5. Start the animation after a 3-second delay
+### Hacker [(Demo)](https://pranksjs.vercel.app/hacker-prank)
 
-## Technical Details
-- Uses HTML5 Canvas for animations
-- Written in TypeScript
-- Automatically checks for DOM readiness
-- Prevents multiple instances from running simultaneously
-- Safe to use (doesn't affect scripts or styles)
+- Matrix-style rain effect with falling Japanese characters
+- Display a centered "YOU'VE BEEN HACKED" message
+- Starts the animation after a 3-second delay
+
+### Rotation [(Demo)](https://pranksjs.vercel.app/rotation-prank)
+
+- Rotates page
 
 ## License
 
-MIT 
+MIT

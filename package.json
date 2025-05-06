@@ -2,6 +2,13 @@
   "name": "pranks",
   "version": "1.0.2",
   "description": "A collection of fun pranks for web pages",
+  "author": "Andre Vitorio <andre@vitorio.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avitorio/pranks.git"
+  },
+  "homepage": "https://pranksjs.vercel.app",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -42,8 +49,6 @@
     "animation",
     "rotation"
   ],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.2.64",
